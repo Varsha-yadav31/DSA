@@ -33,30 +33,3 @@ int main(){
     return 0;
 
 }
-
-
-
-/*class Solution {
-  public:
-    int closestNumber(int n, int m) {
-        m = abs(m);   // m ka sign ignore karo
-
-        int low = (n / m) * m;
-        int high;
-
-        // n ke sign ke hisaab se upar/neeche wala multiple
-        if (n >= 0)
-            high = low + m;
-        else
-            high = low - m;
-
-        // distance compare
-        if (abs(n - low) < abs(n - high))
-            return low;
-        else if (abs(n - low) > abs(n - high))
-            return high;
-        else
-            return abs(low) > abs(high) ? low : high;
-    }
-};
-*/

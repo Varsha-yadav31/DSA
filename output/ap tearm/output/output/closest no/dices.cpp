@@ -2,23 +2,22 @@
 using namespace std;
 int main(){
     int n;
-    int ans;
     if(n==1){
-        ans = 6;
+        cout<< "6"<<endl;
     }
     else if(n==2){
-        ans = 5;
+        cout<< "5"<<endl;
     }
     else if(n==3){
-        ans = 4;
+        cout<< "4"<<endl;
     }
     else if(n==4){
-        ans = 3;
+        cout<< "3"<<endl;
     }
     else if(n==5){
-        ans = 2;
+        cout<< "2"<<endl;
     }
     else{
-        ans = 1;
+        cout<< "1";
     }
 }

@@ -19,7 +19,7 @@ int main()
     int n;
     cin >> n;
 
-    cout << multiply(5);
+    cout << multiply(59u);
 
     return 0;
 }

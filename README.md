@@ -2,53 +2,126 @@
 
 Welcome to my **Data Structures & Algorithms (DSA)** repository.
 
-This repository contains my daily DSA practice in **C++**, including basic programming, STL, arrays, linked lists, matrices, searching, sorting, and placement-oriented problems.
+This repository contains my daily DSA practice in **C++**, ranging from basic programming concepts to placement-oriented problems. I regularly solve coding questions to strengthen my problem-solving skills and prepare for coding interviews.
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```
 📦 DSA
+│
 ├── 📁 basic
 │   ├── Arrays
+│   ├── Strings
 │   ├── Vector STL
-│   ├── Linked List
 │   ├── Two Sum
+│   ├── Linked List
 │   ├── Searching
+│   ├── Sorting
 │   └── Basic C++ Programs
 │
 ├── 📁 Placement
-│   ├── Matrix Problems
-│   ├── Sorted Matrix Search
-│   ├── Prime Number
 │   ├── Binary Search
-│   └── Interview Questions
+│   ├── Matrix Search
+│   ├── Search in Sorted Matrix
+│   ├── Prime Number
+│   ├── Fibonacci
+│   ├── GCD & HCF
+│   ├── LCM
+│   ├── Patterns
+│   ├── Strings
+│   ├── Number Theory
+│   ├── Two Pointer Technique
+│   ├── Interview Questions
+│   └── Placement Practice Problems
 │
-└── 📁 Math
-    ├── GCD
-    ├── LCM
-    ├── Fibonacci
-    └── Number Theory
+├── 📁 Math
+│   ├── Number Problems
+│   └── Mathematical Algorithms
+│
+└── README.md
 ```
 
 ---
 
 # 📚 Topics Covered
 
-- ✅ C++ Basics
-- ✅ STL Vector
-- ✅ Arrays
-- ✅ Searching
-- ✅ Binary Search
-- ✅ Two Pointer Technique
-- ✅ Matrix Problems
-- ✅ Sorted Matrix Search
-- ✅ Linked List
-- ✅ Number Theory
-- ✅ Recursion
-- ✅ Time Complexity
-- ✅ Placement Preparation
+## 🔹 C++ Basics
+- Variables
+- Loops
+- Functions
+- Arrays
+- Strings
+
+## 🔹 STL
+- Vector
+- push_back()
+- pop_back()
+- front()
+- back()
+- at()
+- size()
+
+## 🔹 Searching
+- Linear Search
+- Binary Search
+- Search in Matrix
+- Search in Sorted Matrix
+
+## 🔹 Matrix
+- Matrix Traversal
+- Matrix Search
+- Sorted Matrix Problems
+
+## 🔹 Linked List
+- Insertion
+- Deletion
+- Traversal
+- Sum of Elements
+- Recursive Traversal
+
+## 🔹 Number Theory
+- Prime Number
+- Fibonacci
+- GCD
+- HCF
+- LCM
+- Natural Numbers
+- Automorphic Number
+
+## 🔹 Pattern Problems
+- Pattern Printing
+- Number Patterns
+
+## 🔹 Placement Preparation
+- Two Sum
+- Binary Search Problems
+- Matrix Problems
+- String Problems
+- Interview Coding Questions
+
+---
+
+# 📁 Files Included
+
+- binary.cpp
+- factorial.cpp
+- fibbnoci.cpp
+- gcd.cpp
+- hcf.cpp
+- lcm.cpp
+- matrix.cpp
+- sorted matrix.cpp
+- string.cpp
+- prime.cpp
+- automorphic.cpp
+- nNaturalNO.cpp
+- pattern2.cpp
+- pattern3.cpp
+- sideoftriangle.cpp
+- table.cpp
+- tcs.cpp
 
 ---
 
@@ -58,17 +131,40 @@ This repository contains my daily DSA practice in **C++**, including basic progr
 
 ---
 
-# 🎯 Current Progress
+# 🎯 Goals
 
-- ✔️ Vector STL
-- ✔️ Arrays
-- ✔️ Binary Search
-- ✔️ Matrix Search
-- ✔️ Sorted Matrix Search
-- ✔️ Two Sum
-- ✔️ Linked List Basics
+- Solve 300+ DSA Problems
+- Master C++ STL
+- Improve Problem Solving Skills
+- Crack Coding Interviews
+- Placement Preparation
 
-More DSA problems will be added regularly.
+---
+
+# 📈 Current Progress
+
+- ✅ C++ Basics
+- ✅ STL Vector
+- ✅ Arrays
+- ✅ Strings
+- ✅ Binary Search
+- ✅ Matrix Search
+- ✅ Search in Sorted Matrix
+- ✅ Two Sum
+- ✅ Linked List
+- ✅ Number Theory
+- ✅ Pattern Problems
+
+More DSA and Placement questions will be added regularly.
+
+---
+
+# 💻 Platform
+
+- Self Practice
+- College Assignments
+- Placement Preparation
+- Interview Questions
 
 ---
 
@@ -85,6 +181,12 @@ More DSA problems will be added regularly.
 # 📈 Daily Updates
 
 I regularly upload my daily DSA practice and solutions.
+
+---
+
+## ⭐ Connect With Me
+
+If you find this repository useful, don't forget to **⭐ Star** it.
 
 ---
 

@@ -27,7 +27,54 @@ int sum(Node* head) {
     }
     return head->data + sum(head->next);
 }
+//find no.of element
 
+// int countNo(Node* head) {
+//     int count = 0;
+
+//     while (head != NULL) {
+//         count++;
+//         head = head->next;
+//     }
+
+//     return count;
+// }
+void deleteAtTail(Node* &head) {
+
+    if(head == NULL)
+        return;
+    if(head->next == NULL) {
+        delete head;
+        head = NULL;
+        return;
+    }
+    Node* prev = NULL;
+    Node* curr = head;
+    while(curr->next != NULL) {
+        prev = curr;
+        curr = curr->next;
+    }
+    prev->next = NULL;
+    delete curr;
+}
+void deleteAtHead(Node* &head) {
+
+    if(head == NULL)
+        return;
+
+    Node* temp = head;
+
+    head = head->next;
+
+    delete temp;
+}
+
+int count(Node* head) {
+    if (head == NULL)
+        return 0;
+
+    return 1 + count(head->next);
+}
 int main() {
 
     Node* head = new Node(10);
@@ -39,6 +86,12 @@ int main() {
     traverse(head);
     cout << endl;
     cout <<sum(head);
+    cout<<countNo(head);
+    deleteAtHead(head);
+    print(head);
+
+    deleteAtTail(head);
+    print(head);
 
     return 0;
 }

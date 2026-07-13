@@ -42,25 +42,3 @@ int main(){
 
 //     return 0;
 // }
-// #include <iostream>
-// #include <map>
-// using namespace std;
-
-// int main() {
-
-//     // Creating a map
-//     map<int, string> mp;
-
-//     // Adding elements
-//     mp[1] = "Apple";
-//     mp[2] = "Banana";
-//     mp[3] = "Mango";
-
-//     // Iterating using iterator
-//     for (auto it = mp.begin(); it != mp.end(); it++) {
-//         cout << "Key: " << it->first 
-//              << ", Value: " << it->second << endl;
-//     }
-
-//     return 0;
-// }

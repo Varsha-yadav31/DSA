@@ -56,3 +56,27 @@ int main(){
       
 //     }
 // };
+class Node {
+  public:
+    int data;
+    Node* next;
+
+    Node(int val) {
+        data = val;
+        next = NULL;
+    }
+}
+class solution{
+public:
+    void Traverse(Node* head){
+        if(head == NULL){
+            return ;
+        }
+        cout<<head->data<<" ";
+        Traverse(head->next);
+    }
+
+}
+int main(){
+    
+}
